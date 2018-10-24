@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作品集</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, maximum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <script type="text/javascript" src="../js/common.js"></script>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_728563_k6i0vqhm2f.css"/>
+    <link rel="stylesheet" href="../css/href/swiper.min.css"/>
+    <link rel="stylesheet" href="../css/href/animate.min.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+
+    <style type="text/css">
+        /*公共部分开始*/
+        body{  background:#fff;}
+        .container{padding: 0 0 0px; margin: 0 auto;max-width: 1190px;}
+        nav{padding: 0 0;}
+        nav{background:#3591d5;top: 0;z-index: 1;font-size: 0; margin-bottom: -64px;}
+        .btn-logo{width: 188px;height: 64px;background: transparent;margin-left: 30px;}
+        nav ul{display: inline-block;font-size: 0;margin-bottom: 0px;}
+        nav ul li{display: inline-block;font-size: 18px;}
+        nav ul li button{width: 104px;height: 64px;background: transparent;font-size: 16px;color: white;}
+        .btn-on1{background: #fe8a19;}
+        nav ul li a{color: white;font-size: 16px;}
+        .btn-menu button{width: 100%;height: 100%;background: transparent;}
+        .xs-nav li button:hover{cursor:pointer;background:#fe8a19; }
+        .xs-nav li a:hover{cursor:pointer;text-decoration: none;color: white; }
+
+        .banner .swiper-container {  width: 1190px;  height: 400px; }
+        .banner .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{background: #fe8a19;}
+
+        .f1{margin-top: 90px;}
+        .tip{margin:0 auto;text-align: center;margin-bottom: 60px;}
+        .tip h1{margin-bottom: 23px;background: white;font-size: 28px;color: #333;}
+        .tip div{background:#fe8a19;width: 30px;height: 4px;border-radius: 2px; margin: 23px auto 0;}
+
+        .f1-60px{margin-top: -60px;margin-bottom: -30px;}
+        .f1-bg{background-image: url("../img/bg21.png");width: 1190px;height: 575px;background-size: cover;
+            background-repeat: no-repeat;display: table-cell;vertical-align: middle;}
+        .f1-bg ul{margin-top: -50px;font-size: 0px}
+        .f1-bg ul:first-child{margin-left: 2px;}
+        .f1-bg ul .li1{margin-left: 35px;}
+
+        .f2-bg{position:relative;background-image: url("../img/bg22.png");width: 1190px;height: 767px;  background-size: cover;
+            background-repeat: no-repeat;}
+        .imgbg23{position: absolute;left: -30px;top: 0px;}
+        .imgbg24{position: absolute;left: 666px;top: 426px;}
+        .f2-bg p{position:absolute;left: 72px;top: 658px;
+            width: 470px;font-size: 18px;color: #333333;line-height: 36px;}
+
+        .f3{margin-top: 140px;}
+        .f3-bg{position:relative;background-image: url("../img/bg25.png");width: 1190px;height: 746px;  background-size: cover;
+            background-repeat: no-repeat;}
+
+        .f4{margin-top: 140px;}
+        .f4-bg{position:relative;background-image: url("../img/bg27.png");width: 1190px;height: 1368px;  background-size: cover;
+            background-repeat: no-repeat;}
+        .f4-bg p{position:absolute;left: 70px;top:0px;
+            width: 470px;font-size: 18px;color: #333333;line-height: 36px;}
+
+        .return-top{position: absolute;left: 50%;transform:translateX(-50%);-webkit-transform: translateX(-50%); }
+        .return-top button{width: 154px;height: 42px;background: #e5e5e5;font-size: 16px;color: #00aaf0;
+            margin: 60px auto 100px;border-radius: 4px;}
+        .return-top button:hover{cursor: pointer;   box-shadow: 0 9px 27px rgba(100,168,219, 0.35);
+            -webkit-box-shadow: 0 9px 27px rgba(100,168,219, 0.35);}
+        .imgtop{margin-left: 7px;}
+
+
+        /*APP*/
+
+        .app{padding: 0 0 0px; margin: 0 auto;max-width: 7.5rem;}
+        .app-nav{width:7.5rem;height:.88rem;background: transparent;z-index: 1;font-size: 0;}
+        .app-btn-logo{width: 1.88rem;height: .88rem;background: transparent;margin-left: .3rem;}
+        .app-nav button{width: 1.04rem;height: .88rem;background: transparent;color: white;
+            display: inline-block;   }
+        .btn-on1{background: #fe8a19;}
+        .app-btn-menu{background: transparent;width: .33rem;height: .84rem;}
+        .app-imglogo{width: 1.87rem;height: .26rem;}
+        .app-imgmenu{width: .40rem;height: .36rem;}
+
+        .app-header{position: fixed;font-size: 0;top: 0rem;z-index: 10;}
+        .app-nav-ol{font-size: 0;box-shadow: 0 1px 4px rgba(0,0,0,.15);
+            -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.15);}
+        .app-nav-ol li{width: 7.5rem;height: .84rem;background: white;padding: 0px .3rem;
+            /* box-shadow: inset 0 -1px 0 rgba(0,0,0, 0.1);
+             -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0, 0.1);*/}
+        .app-nav-ol li a{font-size: .28rem;color: #fe8a19 ;line-height: .8rem;}
+        .app-nav-ol>.app-on{background: #ffe5cc; }
+
+        .app-nav-ol li>a{width: 7.5rem;height: .84rem; display: block;}
+
+        .app-banner {  width: 7.5rem;  height: 2.5rem; margin-top: .84rem;}
+        .app-banner .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{background: #fe8a19;height: 2.5rem;}
+        .app-banner .swiper-wrapper{height: 2.5rem;}
+        .app-banner img{width: 7.5rem;height: 2.5rem;}
+
+        .app-tip{margin:0 auto;text-align: center;}
+        .app-tip h1{margin-bottom: .2rem;font-size: .32rem;color: #333;}
+        .app-tip div{background:#fe8a19;width: .3rem;height: .04rem;border-radius: .02rem; margin: .20rem auto 0;}
+
+        .app-f1{}
+        .app-bg0{margin:0 auto;background-repeat: no-repeat;width: 7.5rem;background-size: cover;}
+        .app-bg1{color: white;background-image: url("../img/app/bg801.png");height: 4.78rem;}
+        .app-f1 ol{margin-top:.7rem;margin-left: -.24rem;font-size: 0rem;}
+        .app-f1 ol li{margin-left: .24rem;}
+        .app-f1 img{width: 2.16rem;height: 2.16rem;}
+        .app-f2{margin-top: .2rem;}
+        .app-bg2{color: white;background-image: url("../img/app/bg802.png");height: 8.9rem;margin-top:.1rem;}
+        .app-f3{margin-top: .7rem;}
+        .app-bg3{color: white;background-image: url("../img/app/bg803.png");height: 4.76rem;margin-top:.3rem;}
+        .app-f4{margin-top: .4rem;}
+        .app-bg4{color: white;background-image: url("../img/app/bg804.png");height: 10.13rem;margin-top:.4rem;}
+
+
+
+    </style>
+    <!--CSS结束-->
+</head>
+<body>
+<div class="app none">
+    <div class="app-header">
+        <section class="app-nav aicenter jcbetween">
+            <button class="app-btn-logo"><img src="../img/bglogo.png" alt="" class="app-imglogo"/></button>
+            <button class="app-btn-menu"><img src="../img/app/menu.png" alt="" class="app-imgmenu"/></button>
+
+        </section>
+        <div class="none app-ol">
+            <ol class="app-nav-ol ">
+                <li ><a href="jianli00.html">首页</a></li>
+                <li class="app-on"><a href="jianli10.html">作品集</a></li>
+                <li><a href="jianli20.html">关于我</a></li>
+            </ol>
+        </div>
+
+    </div>
+    <div class="app-banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="jianli11.html"><img src="../img/bn01.png" alt=""/></a></div>
+                <div class="swiper-slide"><img src="../img/bn02.png" alt=""/></div>
+                <div class="swiper-slide"><img src="../img/bn03.png" alt=""/></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <!--         <div class="swiper-button-prev"></div>
+                     <div class="swiper-button-next"></div>-->
+        </div>
+    </div>
+    <div class="app-f1 app-bg0 app-bg1">
+        <section class="app-tip" style="margin-top: .7rem;">
+            <h1>直通车产品图</h1>
+            <div></div>
+        </section>
+        <div class="jccenter" style="width: 7.5rem;">
+            <ol>
+                <li><a href="jianli12.html"><img src="../img/bn06.png" alt=""/></a></li>
+                <li ><img src="../img/bn07.png" alt=""/></li>
+                <li ><img src="../img/bn08.png" alt=""/></li>
+                <!--<li class="li1" style="margin-left: .1rem"><img src="../img/bn09.png" alt=""/></li>-->
+            </ol>
+        </div>
+    </div>
+
+    <div class="app-f2 ">
+        <section class="app-tip" >
+            <h1>日常活动页</h1>
+            <div></div>
+        </section>
+        <div class="app-bg0 app-bg2">
+        </div>
+    </div>
+
+    <div class="app-f3 ">
+        <section class="app-tip" >
+            <h1>七夕活动专题页</h1>
+            <div></div>
+        </section>
+        <div class="app-bg0 app-bg3">
+        </div>
+    </div>
+
+    <div class="app-f4 ">
+        <section class="app-tip" >
+            <h1>联通销售助手APP</h1>
+            <div></div>
+        </section>
+        <div class="app-bg0 app-bg4">
+        </div>
+    </div>
+
+</div>
+
+<!--app结束-->
+<!--PC开始-->
+
+<div class="container none">
+
+        <nav class="clearfix " style="padding-right: 0;" id="nav">
+            <button class="btn-logo"><img src="../img/bglogo.png" alt="" class="imglogo"/></button>
+            <ul class="xs-nav right" id="xs-nav">
+         <!--       <li><button class="btn-on1" id="navli1"><a href="">首页</a></button></li>
+                <li><button><a href="">作品集</a></button></li>
+                <li><button><a href="">关于我</a></button></li>-->
+                <li><a href="jianli00.html"><button >首页</button></a></li>
+                <li><a href="jianli10.html"><button class="btn-on1" id="navli1">作品集</button></a></li>
+                <li><a href="jianli20.html"><button>关于我</button></a></li>
+            </ul>
+            <!--<div class="btn-menu"><button><img src="../img/menu.png" alt="" /></button></div>-->
+        </nav>
+        <div class="banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="jianli11.html"><img src="../img/bn01.png" alt=""/></a></div>
+                    <div class="swiper-slide"><img src="../img/bn02.png" alt=""/></div>
+                    <div class="swiper-slide"><img src="../img/bn03.png" alt=""/></div>
+                </div>
+                <div class="swiper-pagination"></div>
+       <!--         <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>-->
+            </div>
+        </div>
+
+        <div class="f1">
+            <div class="tip">
+                <h1>直通车产品图</h1>
+                <div></div>
+            </div>
+            <div class="f1-60px">
+                <div class="f1-bg">
+                    <ul>
+                        <li><a href="jianli12.html"><img src="../img/bn06.png" alt=""/></a></li>
+                        <li class="li1"><img src="../img/bn07.png" alt=""/></li>
+                        <li class="li1"><img src="../img/bn08.png" alt=""/></li>
+                        <li class="li1"><img src="../img/bn09.png" alt=""/></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="f2">
+            <div class="tip">
+                <h1>日常活动页</h1>
+                <div></div>
+            </div>
+            <div class="f2-bg">
+                <img src="../img/bg23.png" alt="" class="imgbg23"/>
+                <img src="../img/bg24.png" alt="" class="imgbg24"/>
+                <p>公众号及APP专题展示：配合电信运营商活动方案，业务开展，更新UI主题设计以及业务内容；与前端开发及以客户对接工作，并根据反馈调整设计方案。</p>
+            </div>
+        </div>
+
+    <div class="f3">
+        <div class="tip">
+            <h1>七夕活动专题页</h1>
+            <div></div>
+        </div>
+        <div class="f3-bg">
+         </div>
+    </div>
+
+    <div class="f4">
+        <div class="tip">
+            <h1>联通销售助手APP</h1>
+            <div></div>
+        </div>
+        <div class="f4-bg">
+            <p>帮助销售人员介绍中国联通的业务，进行现场演示，在线培训等等；包括佣金、订单、业绩、认证等功能；维护客户关系，提升销售业绩的助销应用。</p>
+        </div>
+    </div>
+
+
+    <div class="return-top">
+        <a href="#nav"><button>返回顶部<img src="../img/top.png" alt="" class="imgtop"/></button></a>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="../js/src/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../js/src/swiper4.min.js"></script>
+<script type="text/javascript" src="../js/src/swiper.animate1.0.3.min.js"></script>
+<script type="text/javascript" src="../js/jianli00.js"></script>
+<script type="text/javascript">
+$('#xs-nav li button').mouseenter(function(){
+//    $(this).addClass('btn-on1').parent().parent().siblings().children().children().removeClass('btn-on1');
+$('#navli1').removeClass('btn-on1');
+});
+$('#xs-nav li button').mouseleave(function(){
+    $('#navli1').addClass('btn-on1');
+});
+
+var winHeight = $(document).scrollTop();
+$(window).scroll(function() {
+    var scrollY = $(document).scrollTop();
+    if (scrollY > 0){
+        $('.app-nav').css({'background':'white', 'box-shadow': '0 1px 4px rgba(0,0,0,.15)',
+            '-webkit-box-shadow': '0 1px 4px rgba(0,0,0,.15)'});
+//        $('.app-imglogo').hide();
+    }
+    else {
+        $('.app-nav').css({'background':'transparent','box-shadow': 'none',
+            '-webkit-box-shadow': 'none'});
+//        $('.app-imglogo').show();
+    }
+    /*    if (scrollY > winHeight){
+
+     $('.app-nav').css('background','#3591d5');
+     }
+     else {
+     $('.app-nav').css('background','transparent');
+
+     }*/
+});
+$('.app-imgmenu').click(function(){
+    $('.app-ol').slideToggle();
+    $('.app-nav').css({'background':'white'})
+});
+
+</script>
+</body>
+</html>
